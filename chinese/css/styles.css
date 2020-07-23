@@ -4,6 +4,8 @@ body
 	color: #fff;
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
+	position:absolute;
+	min-width:100%;
 }
 #header-nav
 {
@@ -51,6 +53,11 @@ body
 	vertical-align: middle;
 }
 
+#nav-list{
+	align-self:center;
+	text-align:center;
+	align-content:center;
+}
 .botam
 {
 	 width: 35px;
@@ -64,30 +71,4 @@ body
 	position: relative;
 	float: right;
 
-}
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  
 }
